@@ -1,18 +1,14 @@
 import React from "react"
 
 import ToyCard from "./ToyCard"
-import { toys } from "./toys.js"
 
-const ToysList = () => (
+const ToysList = ({ listOfToys }) => (
   <div id="toy-collection">
     {
-      toys.map(toy => (
+      listOfToys.map(toy => (
         <ToyCard
-           id={toy.id}
-           key={toy.id}
-           image={toy.image}
-           likes={toy.likes}
-           name={toy.name}
+            key={toy.id}
+            toyyyyys={toy}
         />
       ))
     }
