@@ -15,9 +15,7 @@ const App = () => {
           logo={logo}
           title={title}
       />
-      <ToysList
-          listOfToys={listOfToys}
-      />
+      <ToysList listOfToys={listOfToys} />
     </div>
   )
 }

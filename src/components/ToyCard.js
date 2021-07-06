@@ -1,18 +1,18 @@
 import React from "react"
 
-const ToyCard = ({ toyyyyys }) => (
+const ToyCard = ({ toy }) => (
   <div className={"card"}>
-    <h2>{toyyyyys.name}</h2>
+    <h2>{toy.name}</h2>
     <img
-        alt={toyyyyys.name}
-        src={toyyyyys.image}
+        alt={toy.name}
+        src={toy.image}
         className={"toy-avatar"}
     />
-    <p>{`${toyyyyys.likes} likes`}</p>
+    <p>{`${toy.likes} likes`}</p>
     <button
         className={"like-btn"}
-        id={toyyyyys.id}
-        onClick={() => alert(`${toyyyyys.name} was clicked!`)}
+        id={toy.id}
+        onClick={() => alert(`${toy.name} was clicked!`)}
     >
       like
     </button>

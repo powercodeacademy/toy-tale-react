@@ -8,7 +8,7 @@ const ToysList = ({ listOfToys }) => (
       listOfToys.map(toy => (
         <ToyCard
             key={toy.id}
-            toyyyyys={toy}
+            toy={toy}
         />
       ))
     }
