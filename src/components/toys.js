@@ -1,4 +1,4 @@
-export const toys = [
+export const initialToys = [
   {
     "id": 1,
     "name": "Woody",
